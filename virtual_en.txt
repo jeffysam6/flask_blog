@@ -1,0 +1,21 @@
+This is an excellent tutorial, but I had some trouble. First, I created a folder called "Py-proj01" to put my project in. Using the Windows Command Prompt (run as Administrator) on Windows 10, I made a few adjustments to get the "Hello World" in my Chrome browser. The commands I entered follow the ">"
+
+C:\WINDOWS\system32>cd C:\Py-proj01
+
+C:\WINDOWS\system32>py -m virtualenv flask
+
+C:\Py-proj01>flask\Scripts\activate
+
+(flask) C:\Py-proj01>pip install flask
+
+(flask) C:\Py-proj01>set FLASK_APP=flaskblog.py
+
+(flask) C:\Py-proj01>flask run
+ * Serving Flask app "flaskblog.py"
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)﻿
+
+ pip install flask-wtf #for form validation 
